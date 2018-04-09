@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<title>HTML KickStart Elements</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" /> 
+	
+	<!-- Javascript -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/kickstart.js"></script>
+
+</head>
+
+<body>
+
+<ul class="menu">
+	<li><a href="shop_main.html"><img class="align-left-side" src="./books-512.png" width="64" height="50"></a></li>
+
+	<li><a href="shop_katalog.html">Romane</a></li>
+	<li><a href="shop_katalog.html">Krimis</a></li>
+	<li><a href="shop_katalog.html">Kinderbücher</a>
+		<ul>
+		<li><a href="shop_katalog.html">Ausführung 1</a></li>
+		<li><a href="shop_katalog.html">Ausführung 2</a>
+		</li>
+		</ul>
+	</li>
+	<li><a href="shop_katalog.html">Lehrbücher</a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href="shop_shopping_cart.html"><img class="align-right-side" src="./Warenkorb.png" width="64" height="50"></a></li>
+</ul>
+<div class="row2">
+  <div class="column2 left2"">
+	<img src="/bilder/cover2.jpg" width=100% height=100%">
+  </div>
+  <div class="column2 middle2">
+	
+    <h2>Harry Potter und der Feuerkelch</h2>
+	
+    <p style="color:blue;">- J.K. Rowling</p>
+	
+	<!-- Blockquote -->
+	<blockquote>
+	<p>
+	Harrys viertes Schuljahr in Hogwarts beginnt und ein Wettkampf hält die Schüler in Atem: das Trimagische Turnier, in dem Harry eine Rolle übernimmt, die er sich im Traum nicht vorgestellt hätte. Natürlich steckt dahinter das Böse, das zurück an die Macht drängt: Lord Voldemort. Es wird eng für Harry. Doch auf seine Freunde und ihre Unterstützung kann er sich auch in verzweifelten Situationen verlassen.
+
+	Dies ist der vierte Band der international erfolgreichen Harry-Potter-Serie, die Generationen geprägt hat.
+	
+	</p>
+	</blockquote>
+	
+	<!-- Table w/Side -->
+	<table border="1" cellspacing="0" cellpadding="0">
+	<thead><tr>
+		<th></th>
+		<th>Information</th>
+	</tr></thead>
+	<tbody><tr>
+		<th>Autor/in</th>
+		<td>J.K. Rowling</td>
+		
+	</tr><tr>
+		<th>ISBN</th>
+		<td>3551354049</td>
+		
+	</tr><tr>
+		<th>Verlag</th>
+		<td>Carlsen (19. Februar 2008)</td>
+		
+	</tr><tr>
+		<th>Sprache</th>
+		<td>Deutsch</td>
+		
+	</tr></tbody>
+	</table>
+  </div>
+  <div class="column2 right2">
+	
+	<div style="border-style: ridge;border-color: silver;padding-bottom:5px;padding-left:10px">
+		<h3>29,99€</h3><br>
+		<!-- Select -->
+		<label for="select1">Menge</label>
+		<select id="select1">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select>
+		<br>
+		<br>
+		<button class="large"><i class="fa fa-shopping-cart"></i> Hinzufügen</button>
+	</div>
+  </div>
+</div>
+</body>
+</html>
