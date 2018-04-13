@@ -517,3 +517,59 @@ clear:both;
 		text-decoration:none;
 		font-size:0.8em;
 		}
+
+		
+* {
+    box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column1 {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left1, .right1 {
+  width: 33.33%;
+}
+
+.middle1 {
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row1:after1 {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+.column2 {
+    float: left;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+.left2 {
+  width: 25%;
+}
+
+.right2 {
+  width: 25%;
+  padding-top:200px;
+  padding-left:50px;
+}
+
+.middle2 {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row2:after2 {
+    content: "";
+    display: table;
+    clear: both;
+}
