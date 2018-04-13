@@ -41,7 +41,7 @@
 	<li class="right"><a href="Warenkorb.html"><img src="./bilder/Warenkorb.png" width="64" height="50"></a></li>
 </ul>
 
-	<div class="grid" style="background-color:white;">
+	<div class="grid" style="margin-bottom:50px;">
 	
 		<form class="vertical">
 			<label>Name</label>
@@ -71,10 +71,22 @@
 			
 			<label>E-Mail</label>
 			<input type="text"/>
+			
+			<label>Zahlungsart</label>
+			<select>
+				<option value="0">Bankverbindung</option>
+				<option value="1">Kreditkarte</option>
+				<option value="2">Paypal</option>
+			</select>
+			
+			<label>...</label>
+			<input type="text"/>
 		</form>
 	
-		<a class="button orange large" href="Bestätigung.html">Eingaben bestätigen</a>
-		
 	</div>
+	<div class="grid" style="margin-bottom:150px;">
+		<a class="button orange large" href="Bestätigung.html">Eingaben bestätigen</a>
+	</div>	
+		
 </body>
 </html>
